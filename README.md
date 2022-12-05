@@ -1,3 +1,3 @@
-# tiny-merge
+# Image to JSON
 
-State-based CRDT with a Tiny footprint.
+Converts an image to JSON.
