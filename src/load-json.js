@@ -19,10 +19,12 @@ rl.question('Enter the name of the JSON file:', (jsonFilename) => {
   // Access the properties of the object
   const pixels = pixelData.pixels
   const colors = pixelData.colors
+  const dominantIndex = pixelData.dominantIndex
 
   // Use the properties of the object
   console.log(pixels)
   console.log(colors)
+  console.log(dominantIndex)
 
   // Close the readline interface
   rl.close()
